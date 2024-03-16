@@ -1,5 +1,33 @@
-<p>
-    <mat-toolbar color="primary">
-      <span>Peppo Run</span>
-    </mat-toolbar>
-</p>
+<header [ngClass]="{ 'scrolled': isScrolled, 'dark-mode': isDarkMode, 'hovered': isHovered }" 
+        (mouseenter)="onHeaderMouseEnter()" 
+        (mouseleave)="onHeaderMouseLeave()">
+
+  <div class="logo">
+    <a routerLink="/">
+      <img src="./assets/images/logoBlack.png" alt="Логотип">
+    </a>
+  </div>
+
+  <nav>
+    <ul>
+      <li>
+       
+        <button mat-button color="transparent" (click)="openSubsidiesPage()">Субсидии</button>
+      
+      </li>
+      <li>
+        <button mat-button color="transparent" routerLink="/routes">Маршруты</button>
+      </li>
+      <li>
+        <button mat-button color="transparent" routerLink="/help">Справка</button>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="buttons">
+    <button mat-raised-button color="transparent" (click)="openRegistrationPopup()">Регистрация</button>
+    <button mat-raised-button (click)="openRegistrationPopup()">Вход</button>
+  </div>
+
+
+</header>
