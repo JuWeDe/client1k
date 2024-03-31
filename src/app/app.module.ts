@@ -9,8 +9,6 @@ import {MatIconModule} from '@angular/material/icon';
 
 
 import { AppComponent } from './app.component';
-// import { HeaderComponent } from './components/header/header.component';
-import { ListComponent } from './components/list/list.component';
 import { CardComponent } from './components/card/card.component';
 import { AuthDialogComponent } from './components/auth-dialog/auth-dialog.component';
 
@@ -19,13 +17,19 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { HeaderComponent } from './components/header/header.component';
 import { RegistrationPopupComponent } from './components/registration-popup/registration-popup.component';
 import { SubsidiesComponent } from './components/subsidies/subsidies.component';
-import { HomepageComponent } from './homepage/homepage.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+
+
+
+
+import {AppRoutingModule} from './app-routing.module'
+import {HttpClientModule} from '@angular/common/http'
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent,
     CardComponent,
     AuthDialogComponent,
     HeaderComponent,
@@ -34,6 +38,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     HomepageComponent
   ],
   imports: [
+    AppRoutingModule,
     MatIconModule,
     MatDatepickerModule,
     BrowserModule,
