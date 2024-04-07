@@ -1,0 +1,37 @@
+button.flights-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 350px;
+  }
+  
+  button.flights-button img {
+    width: 310px;
+    height: 350px;
+    margin-bottom: 24px;
+  }
+  button.info-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 469px;
+    height: 173px;
+  }
+  button.info-button img {
+    width: 469px;
+    height: 173px;
+    margin-bottom: 24px;
+  }
+  button.routes-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 469px;
+    height: 173px;
+  }
+  button.routes-button img {
+    width: 469px;
+    height: 173px;
+    margin-bottom: 24px;
+  }

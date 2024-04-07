@@ -1,18 +1,15 @@
 <header [ngClass]="{ 'scrolled': isScrolled, 'dark-mode': isDarkMode, 'hovered': isHovered }" 
         (mouseenter)="onHeaderMouseEnter()" 
         (mouseleave)="onHeaderMouseLeave()">
-
   <div class="logo">
     <a routerLink="/">
       <img src="./assets/images/logoBlack.png" alt="Логотип">
     </a>
   </div>
-
   <nav>
     <ul>
       <li>
       <a><button mat-button color="transparent" (click)="openSubsidiesPage()">Субсидии</button></a>
-      
       </li>
       <li>
       <a><button mat-button color="transparent" routerLink="/routes">Маршруты</button></a>
@@ -22,11 +19,8 @@
       </li>
     </ul>
   </nav>
-
   <div class="buttons">
     <button mat-raised-button color="transparent" (click)="openRegistrationPopup()">Регистрация</button>
     <button mat-raised-button (click)="openRegistrationPopup()">Вход</button>
   </div>
-
-
 </header>
