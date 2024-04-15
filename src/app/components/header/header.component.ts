@@ -9,28 +9,26 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  isScrolled: boolean = false;
-  isDarkMode: boolean = false;
-  isHovered: boolean = false;
+
 
   constructor(public dialog: MatDialog, private router: Router) {}
-
-  openRegistrationPopup(): void {
+  openSubsidiesPage(): void { 
+    this.router.navigate(['/subsidies']);
+  }
+openTest() {
+  window.open('https://google.com', '_blank');
+}
+openRegistrationPopup(): void {
     const dialogRef = this.dialog.open(RegistrationPopupComponent, {
       width: 'auto',
     });
   }
-
-  openSubsidiesPage(): void {
-    this.router.navigate(['/subsidies']);
+  openRoutesPage(): void {
+    this.router.navigate(['/routes']);
   }
-  
-
-  onHeaderMouseEnter() {
-    this.isHovered = true;
-  }
-
-  onHeaderMouseLeave() {
-    this.isHovered = false;
+  openInfoPage(): void {
+    this.router.navigate(['/routes']);
+  }  
+  ngOnInit(): void {
   }
 }
