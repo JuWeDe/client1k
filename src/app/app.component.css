@@ -1,5 +1,5 @@
-.app-container {
+.buttons-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; 
 }
