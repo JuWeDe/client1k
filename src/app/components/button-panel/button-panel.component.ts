@@ -20,20 +20,12 @@ openInfo() {
 }
 openFlights() {
   this.router.navigate(['/flights']);
-
 }
-
-
-  showButtonPanel: boolean = true;
-
- 
-  
+  showButtonPanel: boolean = true;  
   ngOnInit() {
-    this.router.events.pipe(
-      filter((event) => event instanceof NavigationEnd)
-    ).subscribe((event) => {
+    this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        this.showButtonPanel = !event.url.includes('/subsidies');
+        this.showButtonPanel = this.router.url === '/';
       }
     });
   }

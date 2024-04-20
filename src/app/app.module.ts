@@ -19,6 +19,7 @@ import { InfoComponent } from './components/info/info.component';
 import { RoutesComponent } from './components/routes/routes.component';
 import { FlightsComponent } from './components/flights/flights.component';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
+import { ReferenceComponent } from './components/reference/reference.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MAT_DATE_LOCALE } from '@angular/material/core';
     ButtonPanelComponent,
     PageNotFoundComponent,
     InfoComponent,
+    ReferenceComponent,
     RoutesComponent,
     FlightsComponent
   ],
