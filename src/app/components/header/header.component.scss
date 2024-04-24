@@ -66,6 +66,10 @@ header {
       margin-left: 0;
     }
   }
+  .mat-raised-button.login-button {
+    background-color: #000000; /* черный цвет фона */
+    color: #ffffff; /* белый цвет текста */
+  }
   .dark-mode {
     header {
       background: #333;

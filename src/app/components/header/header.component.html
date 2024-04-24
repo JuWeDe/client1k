@@ -1,6 +1,6 @@
  <header>
   <div class="logo">
-    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    <a routerLink="/">
       <img src="./assets/images/logoBlack.png" alt="Логотип">
     </a>
   </div>
@@ -24,7 +24,9 @@
   <ng-template #loggedOutButtons>
     <div class="buttons">
       <button mat-raised-button color="transparent" routerLink="/registration">Регистрация</button>
-      <button mat-raised-button (click)="openTest()">Вход</button>
+     
+<button mat-raised-button color="primary" class="login-button" (click)="openTest()">Вход</button>
+
     </div>
   </ng-template>
 </header>

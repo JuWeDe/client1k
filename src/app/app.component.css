@@ -1,3 +1,4 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 .buttons-container {
   display: flex;
   flex-direction: column;
@@ -5,4 +6,17 @@
 }
 .header {
   margin-top: 150px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+}
+
+.input-group input, .input-group button {
+  margin-right: 10px;
 }

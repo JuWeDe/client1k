@@ -12,7 +12,9 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+  redirectToHome() {
+    this.router.navigateByUrl('/');
+  }
   isLoggedIn: boolean = false;
 
   constructor(public dialog: MatDialog,private authService: AuthService, private router: Router) {
