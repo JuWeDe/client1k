@@ -1,4 +1,4 @@
- <header>
+<header>
   <div class="logo">
     <a routerLink="/">
       <img src="./assets/images/logoBlack.png" alt="Логотип">
@@ -7,10 +7,10 @@
   <nav>
     <ul>
       <li>
-      <a><button mat-button color="transparent" (click)="openSubsidiesPage()">Субсидии</button></a>
+        <a><button mat-button color="transparent" (click)="openSubsidiesPage()">Субсидии</button></a>
       </li>
       <li>
-      <a><button mat-button color="transparent" (click)="openRoutesPage()">Маршруты</button></a>
+        <a><button mat-button color="transparent" (click)="openRoutesPage()">Маршруты</button></a>
       </li>
       <li>
         <a><button mat-button color="transparent" (click)="openInfoPage()">Справка</button></a>
@@ -24,14 +24,12 @@
   <ng-template #loggedOutButtons>
     <div class="buttons">
       <button mat-raised-button color="transparent" routerLink="/registration">Регистрация</button>
-     
-<button mat-raised-button color="primary" class="login-button" (click)="openTest()">Вход</button>
-
+      <button mat-raised-button color="primary" class="login-button" (click)="openTest()">Вход</button>
     </div>
   </ng-template>
 </header>
 
- <!-- <header>
+<!-- <header>
   <div class="logo">
     <a routerLink="/">
       <img src="./assets/images/logoBlack.png" alt="Логотип">

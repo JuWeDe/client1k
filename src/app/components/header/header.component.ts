@@ -17,32 +17,32 @@ export class HeaderComponent {
   }
   isLoggedIn: boolean = false;
 
-  constructor(public dialog: MatDialog,private authService: AuthService, private router: Router) {
+  constructor(public dialog: MatDialog, private authService: AuthService, private router: Router) {
     this.checkLoginStatus();
   }
 
 
   ngOnInit(): void {
-    this.checkLoginStatus(); 
+    this.checkLoginStatus();
   }
 
 
 
-  openSubsidiesPage(): void { 
+  openSubsidiesPage(): void {
     this.router.navigate(['/subsidies']);
   }
   openReferencePage() {
     this.router.navigate(['/reference']);
   }
-openTest() {
-  window.open('https://google.com', '_blank');
-}
-openRegistrationPopup(): void {
-  const dialogRef = this.dialog.open(RegistrationPopupComponent, {
-    width: 'auto',
-  });
-}
-  
+  openTest() {
+    window.open('https://google.com', '_blank');
+  }
+  openRegistrationPopup(): void {
+    const dialogRef = this.dialog.open(RegistrationPopupComponent, {
+      width: 'auto',
+    });
+  }
+
   logout(): void {
     this.authService.logout();
     this.isLoggedIn = false;
@@ -56,7 +56,7 @@ openRegistrationPopup(): void {
   }
   openInfoPage(): void {
     this.router.navigate(['/references']);
-  }  
+  }
 }
 
 

@@ -1,0 +1,28 @@
+<div class="content" *ngIf="passenger">
+  <!-- Приветствие -->
+  <h1>{{ greeting }},  {{ passenger.name }}</h1>
+
+  <div *ngIf="passenger">
+    <h2>Обо мне</h2>
+    <p>Дата рождения: {{ passenger.birthdate }}</p>
+    <p>Полное ФИО: {{ passenger.surname }} {{ passenger.name }} {{ passenger.patronymic }}</p>
+  </div>
+
+  <div>
+    <h2>Ваши субсидии</h2>
+    <table class="mat-table subsidiesDfoTable">
+      <tr>
+        <th>Субсидия</th>
+        <th>Дата начала</th>
+        <th>Дата окончания</th>
+        <th>Количество субсидий</th>
+      </tr>
+      <tr *ngFor="let subsidy of subsidies">
+        <td>{{ subsidy.name}}</td>
+        <td>{{ subsidy.startDate }}</td>
+        <td>{{ subsidy.endDate }}</td>
+        <td>{{ subsidy.amount }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

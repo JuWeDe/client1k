@@ -23,12 +23,13 @@ import { ReferenceComponent } from './components/reference/reference.component';
 import { MatTableModule } from '@angular/material/table';
 import { CommonModule } from '@angular/common';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
-
+import { ProfileComponent } from './components/profile/profile.component';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { ruLocale } from 'ngx-bootstrap/locale';
-import { MatNativeDateModule } from '@angular/material/core'; // Импортируем MatNativeDateModule
-
+import { MatNativeDateModule } from '@angular/material/core';
+import { SubsidyService } from './services/subsidy.service';
+import { PassengerService } from './services/passenger.service';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { MatNativeDateModule } from '@angular/material/core'; // Импорти�
     ButtonPanelComponent,
     PageNotFoundComponent,
     InfoComponent,
+    ProfileComponent,
     ReferenceComponent,
     RoutesComponent,
     FlightsComponent
@@ -47,7 +49,7 @@ import { MatNativeDateModule } from '@angular/material/core'; // Импорти�
   imports: [
     CommonModule,
     BsDatepickerModule,
-    ReactiveFormsModule, // Добавлено ReactiveFormsModule
+    ReactiveFormsModule,
     MatTableModule,
     MatDatepickerModule,
     MatNativeDateModule,
@@ -63,6 +65,8 @@ import { MatNativeDateModule } from '@angular/material/core'; // Импорти�
   ],
   providers: [
     BsLocaleService,
+    PassengerService,
+    SubsidyService,
     { provide: MAT_DATE_LOCALE, useValue: 'ru-RU' },
   ],
   bootstrap: [AppComponent]

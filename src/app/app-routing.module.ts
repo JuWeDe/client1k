@@ -6,6 +6,7 @@ import { InfoComponent } from './components/info/info.component';
 import { RoutesComponent } from './components/routes/routes.component';
 import { FlightsComponent } from './components/flights/flights.component';
 import { ReferenceComponent } from './components/reference/reference.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 
  
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'routes', component: RoutesComponent },
   { path: 'flights', component: FlightsComponent },
   { path: 'references', component: ReferenceComponent },
+  { path: 'profile', component: ProfileComponent },
   // { path: '', redirectTo: '/', pathMatch: 'full' }, // маршрут по умолчанию
   // { path: '**', component: PageNotFoundComponent }, // Not Found
 ];

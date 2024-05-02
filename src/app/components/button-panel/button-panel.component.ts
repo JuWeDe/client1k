@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router, NavigationEnd, RouterEvent } from '@angular/router';
-import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-button-panel',
@@ -9,19 +8,18 @@ import { filter } from 'rxjs/operators';
 })
 export class ButtonPanelComponent implements OnInit {
 
-  constructor(private router: Router) {}  
-openRoutes() {
-  this.router.navigate(['/routes']);
+  constructor(private router: Router) { }
+  openRoutes() {
+    this.router.navigate(['/routes']);
+  }
+  openInfo() {
+    this.router.navigate(['/info']);
 
-}
-openInfo() {
-  this.router.navigate(['/info']);
-
-}
-openFlights() {
-  this.router.navigate(['/flights']);
-}
-  showButtonPanel: boolean = true;  
+  }
+  openFlights() {
+    this.router.navigate(['/flights']);
+  }
+  showButtonPanel: boolean = true;
   ngOnInit() {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
@@ -29,5 +27,4 @@ openFlights() {
       }
     });
   }
-  
 }

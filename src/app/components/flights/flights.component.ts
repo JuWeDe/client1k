@@ -11,16 +11,16 @@ import { BsLocaleService } from 'ngx-bootstrap/datepicker';
   styleUrls: ['./flights.component.scss']
 })
 export class FlightsComponent {
-addEvent(arg0: string,$event: MatDatepickerInputEvent<any,any>) {
-throw new Error('Method not implemented.');
-}
+  addEvent(arg0: string, $event: MatDatepickerInputEvent<any, any>) {
+    throw new Error('Method not implemented.');
+  }
   searchForm: FormGroup;
-date: any;
+  date: any;
 
 
   constructor(private formBuilder: FormBuilder, private localeService: BsLocaleService) {
-    defineLocale('ru', ruLocale); // определите русскую локаль
-    this.localeService.use('ru'); // используйте русскую локаль
+    defineLocale('ru', ruLocale);
+    this.localeService.use('ru');
     this.searchForm = this.formBuilder.group({
       from: [''],
       to: [''],
@@ -31,7 +31,6 @@ date: any;
   }
 
   onSubmit(): void {
-    console.log(this.searchForm.value);
   }
 
 }
