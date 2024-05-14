@@ -29,7 +29,7 @@ export class ProfileComponent implements OnInit {
       name: 'Иван',
       surname: 'Иванов',
       patronymic: 'Иванович',
-      birthdate: '1990-01-01', // Формат даты: ГГГГ-ММ-ДД
+      birthdate: '18-01-2002',
       gender: 'Мужской',
       passengerTypes: ['Обычный']
     };
@@ -38,8 +38,8 @@ export class ProfileComponent implements OnInit {
   mockSubsidies(): void {
     // Mock-данные для субсидий
     this.subsidies = [
-      { id: 1, name: 'Субсидия на перелет по тарифу для молодежи', startDate: '2024-01-01', endDate: '2024-06-30', amount: 2 },
-      { id: 2, name: 'Субсидия на перелет по тарифу для ДФО', startDate: '2024-07-01', endDate: '2024-12-31', amount: 4 }
+      { id: 1, name: 'Субсидия на перелет по тарифу для молодежи', startDate: '01-01-2024', endDate: '06-30-2024', amount: 2 },
+      { id: 2, name: 'Субсидия на перелет по тарифу для ДФО', startDate: '07-01-2024', endDate: '12-31-2024', amount: 4 }
     ];
   }
 

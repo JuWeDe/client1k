@@ -27,9 +27,12 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { ruLocale } from 'ngx-bootstrap/locale';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatNativeDateModule } from '@angular/material/core';
 import { SubsidyService } from './services/subsidy.service';
 import { PassengerService } from './services/passenger.service';
+import { FlightCardComponent } from './components/flight-card/flight-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +47,8 @@ import { PassengerService } from './services/passenger.service';
     ProfileComponent,
     ReferenceComponent,
     RoutesComponent,
+    FooterComponent,
+    FlightCardComponent,
     FlightsComponent
   ],
   imports: [
@@ -57,7 +62,8 @@ import { PassengerService } from './services/passenger.service';
     MatIconModule,
     MatDatepickerModule,
     BrowserModule,
-    FormsModule,
+    FormsModule, 
+    MatAutocompleteModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatButtonModule,

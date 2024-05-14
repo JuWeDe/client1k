@@ -1,0 +1,45 @@
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.contact-info, .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.phone, .email {
+  margin-bottom: 10px;
+}
+
+.links a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+.highlight {
+  background-color: rgb(173, 173, 173);
+}

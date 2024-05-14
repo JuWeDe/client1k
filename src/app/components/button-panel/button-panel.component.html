@@ -1,4 +1,4 @@
-<div class="button-panel" *ngIf="showButtonPanel">
+<!-- <div class="button-panel" *ngIf="showButtonPanel">
   <a>
     <button mat-icon-button class="flights-button" (click)="openFlights()">
       <img src="assets/images/flights.svg" alt="Button Icon">
@@ -14,6 +14,26 @@
       <button mat-icon-button class="routes-button" (click)="openRoutes()">
         <img src="assets/images/route.svg" alt="Button Icon">
       </button>
+    </a>
+  </div>
+</div> -->
+<!-- divs -->
+<div class="button-panel" *ngIf="showButtonPanel">
+  <a>
+    <div class="flights-button" (click)="openFlights()">
+      <img src="assets/images/flights.svg" alt="Button Icon">
+    </div>
+  </a>
+  <div class="info-routes-buttons">
+    <a>
+      <div class="info-button" (click)="openInfo()">
+        <img src="assets/images/info.svg" alt="Button Icon">
+      </div>
+    </a>
+    <a>
+      <div class="routes-button" (click)="openRoutes()">
+        <img src="assets/images/route.svg" alt="Button Icon">
+      </div>
     </a>
   </div>
 </div>

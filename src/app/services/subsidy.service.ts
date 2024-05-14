@@ -9,12 +9,10 @@ export class SubsidyService {
 
   constructor() { }
 
-  // Простая заглушка, возвращающая фиктивные данные о субсидиях
   getSubsidies(passengerId: number): Observable<Subsidy[]> {
-    // Предположим, что у пассажира с ID 1 есть две субсидии
     const subsidies: Subsidy[] = [
-      { id: 1, startDate: '2024-01-01', name: 'Субсидия на перелет по тарифу для молодежи', endDate: '2024-06-30', amount: 2 },
-      { id: 2, startDate: '2024-07-01', name: 'Субсидия на перелет по тарифу для ДФО', endDate: '2024-12-31', amount: 4 }
+      { id: 1, startDate: '01-01-2024', name: 'Субсидия на перелет по тарифу для молодежи', endDate: '06-30-2024', amount: 2 },
+      { id: 2, startDate: '07-01-2024', name: 'Субсидия на перелет по тарифу для ДФО', endDate: '12-31-2024', amount: 4 }
     ];
     return of(subsidies);
   }

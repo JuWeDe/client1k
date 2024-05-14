@@ -1,0 +1,62 @@
+.flight-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+.flight-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flight-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flight-info p {
+  margin: 10px 0;
+}
+
+.details-button:hover {
+  background-color: #45a049;
+}
+
+
+
+.flight-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+.flight-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-info p {
+  margin: 10px 0;
+}
+
+.details-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #45a049;
+}

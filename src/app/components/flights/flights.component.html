@@ -1,8 +1,29 @@
+<P>Меню поиска рейсов</P>
 <div class="search-container">
   <form [formGroup]="searchForm" (ngSubmit)="onSubmit()">
     <div class="input-group">
-      <input type="text" formControlName="from" placeholder="Откуда">
-      <input type="text" formControlName="to" placeholder="Куда">
+      
+      
+      <input type="text" formControlName="from" [formControl]="control" placeholder="Откуда" matInput [matAutocomplete]="fromAuto">
+        <mat-autocomplete #fromAuto="matAutocomplete">
+          @for (city of filteredCities | async; track city) {
+            <mat-option [value]="city">{{city}}</mat-option>
+          }
+          <!-- <mat-option *ngFor="let city of suggestedCities" [value]="city">
+            {{ city }}
+          </mat-option> -->
+        </mat-autocomplete>  
+        <input type="text" formControlName="to" [formControl]="control" placeholder="Куда" matInput [matAutocomplete]="toAuto">
+        <mat-autocomplete #toAuto="matAutocomplete">
+          @for (city of filteredDepCities | async; track city) {
+            <mat-option [value]="city">{{city}}</mat-option>
+          }
+          <!-- <mat-option *ngFor="let city of suggestedCities" [value]="city">
+            {{ city }}
+          </mat-option> -->
+        </mat-autocomplete>
+        
+  
       <mat-datepicker #picker></mat-datepicker>
       <div class="custom-datepicker-wrapper">
         <input class="custom-datepicker-input" matInput [matDatepicker]="picker" placeholder="Когда" [(ngModel)]="date"
@@ -18,4 +39,14 @@
       <button type="submit">Поиск</button>
     </div>
   </form>
+</div>
+<div class="flight-list">
+  <div class="flight-header">
+    <p>Номер рейса</p>
+    <p>Вылет-Прилет</p>
+    <p>Авиаперевозчик</p>
+    <p>Время</p>
+    <p>Цена</p>
+  </div>
+  <app-flight-card *ngFor="let flight of flights" [flight]="flight"></app-flight-card>
 </div>
