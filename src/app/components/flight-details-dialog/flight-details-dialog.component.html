@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Подробности о перелете</h2>
+<div mat-dialog-content>
+  <p>Номер рейса: {{ flightInfo.flightNumber }}</p>
+  <p>Отправление: {{ flightInfo.departure }}</p>
+  <p>Аэропорт отправления: {{ 'Шереметьево' }}</p>
+  <p>Прибытие: {{ flightInfo.arrival }}</p>
+  <p>Аэропорт прибытия: {{ 'Баландино' }}</p>
+  <p>Авиакомпания: {{ flightInfo.carrier }}</p>
+  <p>Борт: Boeing 737-777 </p>
+  <p>Время отправления: {{ flightInfo.departureTime }}</p>
+  <p>Время прибытия: {{ flightInfo.arrivalTime }}</p>
+  <p>Цена: {{ flightInfo.price }} руб.</p>
+  <div mat-dialog-actions class="mat-dialog-actions-right-aligned">
+    <button mat-flat-button color="warn" (click)="onClose()">Закрыть</button>
+  </div>
+</div>

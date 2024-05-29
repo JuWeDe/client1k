@@ -1,13 +1,17 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Subsidy } from '../models/subsidy';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SubsidyService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+  private baseUrl = 'http://localhost:5160';
+
+  
 
   getSubsidies(passengerId: number): Observable<Subsidy[]> {
     const subsidies: Subsidy[] = [
@@ -16,4 +20,9 @@ export class SubsidyService {
     ];
     return of(subsidies);
   }
+
+  // getSubsidies(passengerId: number): Observable<Passenger> {
+  //   return this.http.get<Passenger>(`${this.baseUrl}/passengers/${passengerId}`);
+  // }
 }
+

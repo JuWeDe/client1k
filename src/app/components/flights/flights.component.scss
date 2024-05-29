@@ -126,6 +126,11 @@
 .flight-list {
   margin-top: 20px;
 }
+p{
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
 
 .flight-header {
   display: flex;
@@ -146,6 +151,13 @@
   flex-basis: 10%;
 }
 
-// .flight-list .flight-header {
-//   display: none;
-// }
+.flight-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Разрешаем перенос надписей на новую строку */
+}
+
+.flight-info p {
+  margin: 10px 20px; /* Увеличиваем горизонтальный отступ между надписями */
+}

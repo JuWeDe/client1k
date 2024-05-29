@@ -1,10 +1,10 @@
-<footer class="footer" *ngIf="showFooter">
+<footer class="footer">
   <div class="footer-content">
-    
     <div class="contact-info">
       <div class="phone-email">
         <p>Контактный номер: +7 (495) 380-21-53</p>
-        <p (click)="copyToClipboard(post)" (mouseenter)="highlightEmail(true)" (mouseleave)="highlightEmail(false)" [style.cursor]="'pointer'">
+        <p (click)="copyToClipboard(post)" (mouseenter)="highlightEmail(true)" (mouseleave)="highlightEmail(false)"
+          [style.cursor]="'pointer'">
           Почта: <span [class.highlight]="isEmailHighlighted">{{ post }}</span>
         </p>
       </div>
@@ -16,6 +16,9 @@
       <a href="https://www.z-it.ru/about/" target="_blank">О нас</a>
       <a href="https://www.z-it.ru/zashchita-personalnykh-dannykh/" target="_blank">Политика конфиденциальности</a>
     </div>
-  
   </div>
 </footer>
+
+
+
+

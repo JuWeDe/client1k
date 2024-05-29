@@ -8,8 +8,6 @@ import { FlightsComponent } from './components/flights/flights.component';
 import { ReferenceComponent } from './components/reference/reference.component';
 import { ProfileComponent } from './components/profile/profile.component';
 
-
- 
 const routes: Routes = [
   { path: 'subsidies', component: SubsidiesComponent },
   { path: 'info', component: InfoComponent },
@@ -26,4 +24,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
 

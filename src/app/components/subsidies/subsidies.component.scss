@@ -3,6 +3,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
+  margin-bottom: 200px;
 }
 
 p {
@@ -31,7 +32,7 @@ li::before {
   left: 0;
   font-size: 20px;
   line-height: 1;
-  color: #c90000; /* Цвет маркера */
+  color: #c90000;
 }
 
 
@@ -41,19 +42,20 @@ li::before {
   font-size: 16px;
 }
 
-.mat-header-cell, .mat-cell {
+.mat-header-cell,
+.mat-cell {
   padding: 12px 16px;
   text-align: left;
-  background-color: #6495ED; 
+  background-color: #6495ED;
   color: white;
 }
 
 .mat-row:nth-child(even) {
-  background-color: #888888; 
+  background-color: #888888;
 }
 
 .mat-row:nth-child(odd) {
-  background-color: #888888; 
+  background-color: #888888;
 }
 
 .subsidiesDfoTable {
@@ -62,22 +64,23 @@ li::before {
   margin-bottom: 20px;
 }
 
-.subsidiesDfoTable th, .subsidiesDfoTable td {
+.subsidiesDfoTable th,
+.subsidiesDfoTable td {
   padding: 8px;
   border: 1px solid #ccc;
 }
 
 .subsidiesDfoTable th {
-  background-color: #2d8ff8; 
+  background-color: #2d8ff8;
   color: white;
 }
 
 .subsidiesDfoTable tr:nth-child(even) {
-  background-color: #888888; 
+  background-color: #888888;
 }
 
 .subsidiesDfoTable tr:hover {
-  background-color: #acacac; 
+  background-color: #acacac;
 }
 
 .subsidiesChildTable {
@@ -86,14 +89,15 @@ li::before {
   margin-bottom: 20px;
 }
 
-.subsidiesChildTable th, .subsidiesChildTable td {
+.subsidiesChildTable th,
+.subsidiesChildTable td {
   padding: 8px;
   border: 1px solid #ddd;
   text-align: left;
 }
 
 .subsidiesChildTable th {
-  background-color: #2d8ff8; 
+  background-color: #2d8ff8;
   color: white;
 }
 
@@ -102,5 +106,5 @@ li::before {
 }
 
 .subsidiesChildTable tr:hover {
-  background-color: #acacac; 
+  background-color: #acacac;
 }

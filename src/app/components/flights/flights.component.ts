@@ -67,10 +67,10 @@ export class FlightsComponent {
         id: 1, departure: 'Москва', arrival: 'Челябинск', carrier: 'Aeroflot', departureTime: '07:00', arrivalTime: '11:35', price: 7500,
         flightNumber: 'su-1446'
       },
-      {
-        id: 2, departure: 'Москва', arrival: 'Челябинск', carrier: 'Aeroflot', departureTime: '19:20', arrivalTime: '23:55', price: 4500,
-        flightNumber: 'su-1446'
-      },
+      // {
+      //   id: 2, departure: 'Москва', arrival: 'Челябинск', carrier: 'Aeroflot', departureTime: '19:20', arrivalTime: '23:55', price: 4500,
+      //   flightNumber: 'su-1446'
+      // },
     ];
   }
 

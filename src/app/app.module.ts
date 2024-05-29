@@ -33,7 +33,10 @@ import { SubsidyService } from './services/subsidy.service';
 import { PassengerService } from './services/passenger.service';
 import { FlightCardComponent } from './components/flight-card/flight-card.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { CsvReaderService } from './services/csv-reader.service';
+import { CookieConsentComponent } from './components/cookie-consent/cookie-consent.component';
+import { Papa } from 'ngx-papaparse';
+import { FlightDetailsDialogComponent } from './components/flight-details-dialog/flight-details-dialog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,14 +49,15 @@ import { FooterComponent } from './components/footer/footer.component';
     InfoComponent,
     ProfileComponent,
     ReferenceComponent,
+    CookieConsentComponent,
     RoutesComponent,
     FooterComponent,
     FlightCardComponent,
-    FlightsComponent
+    FlightsComponent,
+    FlightDetailsDialogComponent,
   ],
   imports: [
     CommonModule,
-    BsDatepickerModule,
     ReactiveFormsModule,
     MatTableModule,
     MatDatepickerModule,

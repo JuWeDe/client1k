@@ -14,7 +14,6 @@ export class FooterComponent {
   copyToClipboard(text: string): void {
     navigator.clipboard.writeText(text).then(() => {
       console.log('Email copied to clipboard:', text);
-      // Можно добавить какое-то уведомление об успешном копировании
     }, err => {
       console.error('Failed to copy email:', err);
     });
@@ -29,7 +28,6 @@ export class FooterComponent {
       this.showFooter = this.router.url === '/';
     });
   }
-
 }
 
 

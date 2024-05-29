@@ -1,4 +1,3 @@
-/* Общие стили для контента */
 .content {
     max-width: 800px;
     margin: 0 auto;
@@ -31,7 +30,7 @@
     left: 0;
     font-size: 20px;
     line-height: 1;
-    color: #c90000; /* Цвет маркера */
+    color: #c90000; 
   }
   
   .mat-table {
@@ -55,24 +54,24 @@
     background-color: #888888; 
   }
   
-  .subsidiesDfoTable {
+  .subsidiesTable {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
   }
   
-  .subsidiesDfoTable th, .subsidiesDfoTable td {
+  .subsidiesTable th, .subsidiesTable td {
     padding: 8px;
     border: 1px solid #ccc;
   }
   
-  .subsidiesDfoTable th {
+  .subsidiesTable th {
     background-color: #2d8ff8; 
     color: white;
   }
   
   
-  .subsidiesDfoTable tr:hover {
+  .subsidiesTable tr:hover {
     background-color: #acacac; 
   }
   
@@ -95,6 +94,28 @@
   
   
   .subsidiesChildTable tr:hover {
+    background-color: #acacac; 
+  }
+
+
+  .flightHistoryTable{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .flightHistoryTable th, .flightHistoryTable td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .flightHistoryTable th {
+    background-color: #2d8ff8; 
+    color: white;
+  }
+  
+  
+  .flightHistoryTable tr:hover {
     background-color: #acacac; 
   }
   

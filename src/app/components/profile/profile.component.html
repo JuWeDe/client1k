@@ -1,27 +1,43 @@
 <div class="content" *ngIf="passenger">
-  <!-- Приветствие -->
-  <h1>{{ greeting }},  {{ passenger.name }}</h1>
-
+  <h1>{{ greeting }}, {{ passenger.name }}</h1>
   <div *ngIf="passenger">
     <h2>Обо мне</h2>
     <p>Дата рождения: {{ passenger.birthdate }}</p>
     <p>Полное ФИО: {{ passenger.surname }} {{ passenger.name }} {{ passenger.patronymic }}</p>
   </div>
-
   <div>
     <h2>Ваши субсидии</h2>
-    <table class="mat-table subsidiesDfoTable">
+    <table class="mat-table subsidiesTable">
       <tr>
         <th>Субсидия</th>
         <th>Дата начала</th>
         <th>Дата окончания</th>
-        <th>Количество субсидий</th>
       </tr>
       <tr *ngFor="let subsidy of subsidies">
         <td>{{ subsidy.name}}</td>
         <td>{{ subsidy.startDate }}</td>
         <td>{{ subsidy.endDate }}</td>
-        <td>{{ subsidy.amount }}</td>
+      </tr>
+    </table>
+    <h2>Ваши субсидированные перелеты</h2>
+    <table class="flightHistoryTable">
+      <tr>
+        <th>Вылет</th>
+        <th>Прибытие</th>
+        <th>Авиакомпания</th>
+        <th>Номер рейса</th>
+        <th>Дата</th>
+        <th>Время вылета</th>
+        <th>Время посадки</th>
+      </tr>
+      <tr *ngFor="let flight of flightsHist">
+        <td>{{ flight.departure}}</td>
+        <td>{{ flight.arrival}}</td>
+        <td>{{ flight.carrier}}</td>
+        <td>{{ flight.flightNumber}}</td>
+        <td>{{ flight.date}}</td>
+        <td>{{ flight.departureTime}}</td>
+        <td>{{ flight.arrivalTime}}</td>
       </tr>
     </table>
   </div>

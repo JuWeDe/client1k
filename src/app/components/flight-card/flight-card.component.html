@@ -1,13 +1,10 @@
 <div class="flight-card">
   <div class="flight-header">
-  </div>
-  <div class="flight-info">
     <p>{{ flight?.flightNumber }}</p>
     <p>{{ flight?.departure }} - {{ flight?.arrival }}</p>
     <p>{{ flight?.carrier }}</p>
     <p>{{ flight?.departureTime }} - {{ flight?.arrivalTime }}</p>
     <p>{{ flight?.price }} руб.</p>
-    
   </div>
   <button class="details-button" (click)="openModal()">Подробнее</button>
 </div>

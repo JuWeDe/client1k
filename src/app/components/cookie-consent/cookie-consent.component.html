@@ -1,0 +1,8 @@
+<div class="cookie-consent" *ngIf="!consentGiven" @fadeInOut>
+  <button class="close-button" (click)="hideNotification()">&#10005;</button>
+  <p>Мы используем cookies для улучшения вашего опыта. Примите или откажитесь от нашей политики использования cookies.</p>
+  <div class="actions">
+    <button mat-raised-button color="primary" (click)="acceptCookies()">Принять</button>
+    <button mat-button (click)="declineCookies()">Отказаться</button>
+  </div>
+</div>
