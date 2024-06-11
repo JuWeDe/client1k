@@ -21,8 +21,6 @@ export class SubsidyService {
     return of(subsidies);
   }
 
-  // getSubsidies(passengerId: number): Observable<Passenger> {
-  //   return this.http.get<Passenger>(`${this.baseUrl}/passengers/${passengerId}`);
-  // }
+
 }
 

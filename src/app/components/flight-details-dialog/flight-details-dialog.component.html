@@ -2,11 +2,11 @@
 <div mat-dialog-content>
   <p>Номер рейса: {{ flightInfo.flightNumber }}</p>
   <p>Отправление: {{ flightInfo.departure }}</p>
-  <p>Аэропорт отправления: {{ 'Шереметьево' }}</p>
+  <p>Аэропорт отправления: {{ flightInfo.airportDeparture }}</p>
   <p>Прибытие: {{ flightInfo.arrival }}</p>
-  <p>Аэропорт прибытия: {{ 'Баландино' }}</p>
+  <p>Аэропорт прибытия: {{ flightInfo.airportArrival }}</p>
   <p>Авиакомпания: {{ flightInfo.carrier }}</p>
-  <p>Борт: Boeing 737-777 </p>
+  <p>Борт: {{ flightInfo.plane }} </p>
   <p>Время отправления: {{ flightInfo.departureTime }}</p>
   <p>Время прибытия: {{ flightInfo.arrivalTime }}</p>
   <p>Цена: {{ flightInfo.price }} руб.</p>

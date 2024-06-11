@@ -9,8 +9,8 @@ import { FlightDetailsDialogComponent } from '../flight-details-dialog/flight-de
   styleUrl: './flight-card.component.scss'
 })
 export class FlightCardComponent {
-  @Input() flight: Flight | undefined;
   constructor(private dialog: MatDialog) { }
+  @Input() flight!: Flight;
 
   openModal() {
     const dialogRef = this.dialog.open(FlightDetailsDialogComponent, {

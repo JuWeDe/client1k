@@ -29,13 +29,6 @@ export class HeaderComponent {
   openInfoPage(): void {
     this.router.navigate(['/references']);
   }
-
-
-
-
-
-
-
   isLoggedIn: boolean = false;
   constructor(public dialog: MatDialog, private authService: AuthService, private router: Router) {
     this.checkLoginStatus();
@@ -50,11 +43,10 @@ export class HeaderComponent {
     });
   }
   openSignUp() {
+    window.open('https://localhost:5432', '_blank');
   }
   openLogIn() {
-  }
-  openTest() {
-    window.open('https://google.com', '_blank');
+    window.open('https://localhost:5432', '_blank');
   }
 }
 

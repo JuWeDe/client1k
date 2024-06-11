@@ -8,11 +8,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 
 export class AppComponent {
-   [x: string]: any;
-   
-   
- 
-   ngOnInit(): void {
-   }
- 
+  ngOnInit(): void {
   }
+
+}

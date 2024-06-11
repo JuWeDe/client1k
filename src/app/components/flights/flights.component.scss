@@ -155,9 +155,9 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Разрешаем перенос надписей на новую строку */
+  flex-wrap: wrap;
 }
 
 .flight-info p {
-  margin: 10px 20px; /* Увеличиваем горизонтальный отступ между надписями */
+  margin: 10px 20px;
 }

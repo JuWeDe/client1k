@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Добавлено ReactiveFormsModule
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
@@ -33,9 +33,7 @@ import { SubsidyService } from './services/subsidy.service';
 import { PassengerService } from './services/passenger.service';
 import { FlightCardComponent } from './components/flight-card/flight-card.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { CsvReaderService } from './services/csv-reader.service';
 import { CookieConsentComponent } from './components/cookie-consent/cookie-consent.component';
-import { Papa } from 'ngx-papaparse';
 import { FlightDetailsDialogComponent } from './components/flight-details-dialog/flight-details-dialog.component';
 @NgModule({
   declarations: [

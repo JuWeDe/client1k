@@ -15,8 +15,8 @@ const routes: Routes = [
   { path: 'flights', component: FlightsComponent },
   { path: 'references', component: ReferenceComponent },
   { path: 'profile', component: ProfileComponent },
-  // { path: '', redirectTo: '/', pathMatch: 'full' }, // маршрут по умолчанию
-  // { path: '**', component: PageNotFoundComponent }, // Not Found
+  { path: '', redirectTo: '/', pathMatch: 'full' }, // маршрут по умолчанию
+  { path: '**', component: PageNotFoundComponent }, // Not Found
 ];
 
 @NgModule({

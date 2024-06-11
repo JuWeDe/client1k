@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CsvReaderService } from './csv-reader.service';
+import { RouteService } from './route.service';
 
-describe('CsvReaderService', () => {
-  let service: CsvReaderService;
+describe('RouteService', () => {
+  let service: RouteService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(CsvReaderService);
+    service = TestBed.inject(RouteService);
   });
 
   it('should be created', () => {

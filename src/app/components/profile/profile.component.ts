@@ -43,10 +43,10 @@ export class ProfileComponent implements OnInit {
     // Mock-данные для пассажира
     this.passenger = {
       id: 1,
-      name: 'Роман',
-      surname: 'Бадьин',
-      patronymic: 'Сергеевич',
-      birthdate: '18-01-2002',
+      name: 'Иван',
+      surname: 'Иванов',
+      patronymic: 'Иванович',
+      birthdate: '01-01-1999',
       gender: 'Мужской',
       passengerTypes: ['Обычный']
     };
@@ -55,10 +55,10 @@ export class ProfileComponent implements OnInit {
     // Mock-данные для перелетов
     this.passenger = {
       id: 1,
-      name: 'Роман',
-      surname: 'Бадьин',
-      patronymic: 'Сергеевич',
-      birthdate: '18-01-2002',
+      name: 'Иван',
+      surname: 'Иванов',
+      patronymic: 'Иванович',
+      birthdate: '01-01-1999',
       gender: 'Мужской',
       passengerTypes: ['Обычный']
     };
@@ -81,6 +81,7 @@ export class ProfileComponent implements OnInit {
     ];
   }
   getUser(id: number) {
+    
   }
   getSubsidies(passengerId: number) {
   }

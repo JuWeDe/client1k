@@ -1,0 +1,169 @@
+Date : 2024-06-10 14:07:52
+Directory : c:\Users\badin\Downloads\client1k
+Total : 105 files,  17331 codes, 350 comments, 561 blanks, all 18242 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          5 |     14,292 |          2 |          5 |     14,299 |
+| TypeScript         |         56 |      1,191 |        244 |        311 |      1,746 |
+| SCSS               |         16 |        873 |         36 |        175 |      1,084 |
+| HTML               |         17 |        460 |         67 |         49 |        576 |
+| CSV                |          1 |        271 |          0 |          0 |        271 |
+| XML                |          6 |        170 |          0 |          6 |        176 |
+| JSON with Comments |          1 |         32 |          1 |          1 |         34 |
+| YAML               |          1 |         22 |          0 |          7 |         29 |
+| CSS                |          1 |         20 |          0 |          5 |         25 |
+| Markdown           |          1 |          0 |          0 |          2 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                               | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                  |        105 |     17,331 |        350 |        561 |     18,242 |
+| . (Files)                                                                                                          |          7 |     14,324 |          3 |          8 |     14,335 |
+| .github                                                                                                            |          1 |         22 |          0 |          7 |         29 |
+| .github\workflows                                                                                                  |          1 |         22 |          0 |          7 |         29 |
+| src                                                                                                                |         97 |      2,985 |        347 |        546 |      3,878 |
+| src (Files)                                                                                                        |          3 |         24 |          8 |         12 |         44 |
+| src\app                                                                                                            |         86 |      2,516 |        339 |        527 |      3,382 |
+| src\app (Files)                                                                                                    |          7 |        178 |          9 |         27 |        214 |
+| src\app\components                                                                                                 |         60 |      2,160 |        126 |        387 |      2,673 |
+| src\app\components\auth-dialog                                                                                     |          4 |        152 |         22 |         29 |        203 |
+| src\app\components\button-panel                                                                                    |          4 |        127 |         48 |         32 |        207 |
+| src\app\components\cookie-consent                                                                                  |          4 |        109 |          0 |         18 |        127 |
+| src\app\components\flight-card                                                                                     |          4 |        112 |          0 |         30 |        142 |
+| src\app\components\flight-details-dialog                                                                           |          4 |         60 |          0 |         12 |         72 |
+| src\app\components\flights                                                                                         |          4 |        262 |         13 |         43 |        318 |
+| src\app\components\footer                                                                                          |          4 |        103 |          0 |         23 |        126 |
+| src\app\components\header                                                                                          |          4 |        181 |         24 |         29 |        234 |
+| src\app\components\info                                                                                            |          4 |         97 |          0 |         13 |        110 |
+| src\app\components\page-not-found                                                                                  |          4 |         79 |          0 |         13 |         92 |
+| src\app\components\profile                                                                                         |          4 |        236 |          4 |         38 |        278 |
+| src\app\components\reference                                                                                       |          4 |         86 |          0 |         16 |        102 |
+| src\app\components\registration-popup                                                                              |          4 |        105 |          1 |         22 |        128 |
+| src\app\components\routes                                                                                          |          4 |        229 |         13 |         18 |        260 |
+| src\app\components\subsidies                                                                                       |          4 |        222 |          1 |         51 |        274 |
+| src\app\models                                                                                                     |          4 |         37 |          0 |          3 |         40 |
+| src\app\services                                                                                                   |         15 |        141 |        204 |        110 |        455 |
+| src\app\services (Files)                                                                                           |          8 |        124 |         61 |         68 |        253 |
+| src\app\services\websocket                                                                                         |          7 |         17 |        143 |         42 |        202 |
+| src\assets                                                                                                         |          7 |        441 |          0 |          6 |        447 |
+| src\assets (Files)                                                                                                 |          1 |        271 |          0 |          0 |        271 |
+| src\assets\images                                                                                                  |          6 |        170 |          0 |          6 |        176 |
+| src\enviroments                                                                                                    |          1 |          4 |          0 |          1 |          5 |
++--------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                           | language           | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\badin\Downloads\client1k\.github\workflows\npm-grunt.yml                                                  | YAML               |         22 |          0 |          7 |         29 |
+| c:\Users\badin\Downloads\client1k\README.md                                                                        | Markdown           |          0 |          0 |          2 |          2 |
+| c:\Users\badin\Downloads\client1k\angular.json                                                                     | JSON               |        109 |          0 |          1 |        110 |
+| c:\Users\badin\Downloads\client1k\package-lock.json                                                                | JSON               |     14,102 |          0 |          1 |     14,103 |
+| c:\Users\badin\Downloads\client1k\package.json                                                                     | JSON               |         52 |          0 |          1 |         53 |
+| c:\Users\badin\Downloads\client1k\src\app\app-routing.module.ts                                                    | TypeScript         |         22 |          2 |          6 |         30 |
+| c:\Users\badin\Downloads\client1k\src\app\app.component.css                                                        | CSS                |         20 |          0 |          5 |         25 |
+| c:\Users\badin\Downloads\client1k\src\app\app.component.html                                                       | HTML               |         11 |          0 |          0 |         11 |
+| c:\Users\badin\Downloads\client1k\src\app\app.component.spec.ts                                                    | TypeScript         |         31 |          0 |          5 |         36 |
+| c:\Users\badin\Downloads\client1k\src\app\app.component.ts                                                         | TypeScript         |         12 |          0 |          7 |         19 |
+| c:\Users\badin\Downloads\client1k\src\app\app.config.ts                                                            | TypeScript         |          0 |          7 |          3 |         10 |
+| c:\Users\badin\Downloads\client1k\src\app\app.module.ts                                                            | TypeScript         |         82 |          0 |          1 |         83 |
+| c:\Users\badin\Downloads\client1k\src\app\components\auth-dialog\auth-dialog.component.html                        | HTML               |         26 |         22 |          4 |         52 |
+| c:\Users\badin\Downloads\client1k\src\app\components\auth-dialog\auth-dialog.component.scss                        | SCSS               |        100 |          0 |         16 |        116 |
+| c:\Users\badin\Downloads\client1k\src\app\components\auth-dialog\auth-dialog.component.spec.ts                     | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\auth-dialog\auth-dialog.component.ts                          | TypeScript         |          8 |          0 |          3 |         11 |
+| c:\Users\badin\Downloads\client1k\src\app\components\button-panel\button-panel.component.html                      | HTML               |         19 |         20 |          8 |         47 |
+| c:\Users\badin\Downloads\client1k\src\app\components\button-panel\button-panel.component.scss                      | SCSS               |         64 |         28 |         15 |        107 |
+| c:\Users\badin\Downloads\client1k\src\app\components\button-panel\button-panel.component.spec.ts                   | TypeScript         |         17 |          0 |          5 |         22 |
+| c:\Users\badin\Downloads\client1k\src\app\components\button-panel\button-panel.component.ts                        | TypeScript         |         27 |          0 |          4 |         31 |
+| c:\Users\badin\Downloads\client1k\src\app\components\cookie-consent\cookie-consent.component.html                  | HTML               |          8 |          0 |          1 |          9 |
+| c:\Users\badin\Downloads\client1k\src\app\components\cookie-consent\cookie-consent.component.scss                  | SCSS               |         40 |          0 |          5 |         45 |
+| c:\Users\badin\Downloads\client1k\src\app\components\cookie-consent\cookie-consent.component.spec.ts               | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\cookie-consent\cookie-consent.component.ts                    | TypeScript         |         43 |          0 |          6 |         49 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-card\flight-card.component.html                        | HTML               |         10 |          0 |          1 |         11 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-card\flight-card.component.scss                        | SCSS               |         62 |          0 |         15 |         77 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-card\flight-card.component.spec.ts                     | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-card\flight-card.component.ts                          | TypeScript         |         22 |          0 |          8 |         30 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-details-dialog\flight-details-dialog.component.html    | HTML               |         16 |          0 |          1 |         17 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-details-dialog\flight-details-dialog.component.scss    | SCSS               |          6 |          0 |          2 |          8 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-details-dialog\flight-details-dialog.component.spec.ts | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flight-details-dialog\flight-details-dialog.component.ts      | TypeScript         |         20 |          0 |          3 |         23 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flights\flights.component.html                                | HTML               |         37 |          0 |          0 |         37 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flights\flights.component.scss                                | SCSS               |        141 |          0 |         23 |        164 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flights\flights.component.spec.ts                             | TypeScript         |         17 |          0 |          5 |         22 |
+| c:\Users\badin\Downloads\client1k\src\app\components\flights\flights.component.ts                                  | TypeScript         |         67 |         13 |         15 |         95 |
+| c:\Users\badin\Downloads\client1k\src\app\components\footer\footer.component.html                                  | HTML               |         20 |          0 |          5 |         25 |
+| c:\Users\badin\Downloads\client1k\src\app\components\footer\footer.component.scss                                  | SCSS               |         37 |          0 |          6 |         43 |
+| c:\Users\badin\Downloads\client1k\src\app\components\footer\footer.component.spec.ts                               | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\footer\footer.component.ts                                    | TypeScript         |         28 |          0 |          6 |         34 |
+| c:\Users\badin\Downloads\client1k\src\app\components\header\header.component.html                                  | HTML               |         30 |         24 |          1 |         55 |
+| c:\Users\badin\Downloads\client1k\src\app\components\header\header.component.scss                                  | SCSS               |         84 |          0 |         17 |        101 |
+| c:\Users\badin\Downloads\client1k\src\app\components\header\header.component.spec.ts                               | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\header\header.component.ts                                    | TypeScript         |         49 |          0 |          5 |         54 |
+| c:\Users\badin\Downloads\client1k\src\app\components\info\info.component.html                                      | HTML               |         43 |          0 |          0 |         43 |
+| c:\Users\badin\Downloads\client1k\src\app\components\info\info.component.scss                                      | SCSS               |         29 |          0 |          5 |         34 |
+| c:\Users\badin\Downloads\client1k\src\app\components\info\info.component.spec.ts                                   | TypeScript         |         17 |          0 |          5 |         22 |
+| c:\Users\badin\Downloads\client1k\src\app\components\info\info.component.ts                                        | TypeScript         |          8 |          0 |          3 |         11 |
+| c:\Users\badin\Downloads\client1k\src\app\components\page-not-found\page-not-found.component.html                  | HTML               |         31 |          0 |          3 |         34 |
+| c:\Users\badin\Downloads\client1k\src\app\components\page-not-found\page-not-found.component.scss                  | SCSS               |         21 |          0 |          1 |         22 |
+| c:\Users\badin\Downloads\client1k\src\app\components\page-not-found\page-not-found.component.spec.ts               | TypeScript         |         17 |          0 |          5 |         22 |
+| c:\Users\badin\Downloads\client1k\src\app\components\page-not-found\page-not-found.component.ts                    | TypeScript         |         10 |          0 |          4 |         14 |
+| c:\Users\badin\Downloads\client1k\src\app\components\profile\profile.component.html                                | HTML               |         44 |          0 |          1 |         45 |
+| c:\Users\badin\Downloads\client1k\src\app\components\profile\profile.component.scss                                | SCSS               |         96 |          0 |         25 |        121 |
+| c:\Users\badin\Downloads\client1k\src\app\components\profile\profile.component.spec.ts                             | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\profile\profile.component.ts                                  | TypeScript         |         78 |          4 |          6 |         88 |
+| c:\Users\badin\Downloads\client1k\src\app\components\reference\reference.component.html                            | HTML               |         20 |          0 |          0 |         20 |
+| c:\Users\badin\Downloads\client1k\src\app\components\reference\reference.component.scss                            | SCSS               |         29 |          0 |          5 |         34 |
+| c:\Users\badin\Downloads\client1k\src\app\components\reference\reference.component.spec.ts                         | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\reference\reference.component.ts                              | TypeScript         |         19 |          0 |          5 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\registration-popup\registration-popup.component.html          | HTML               |         35 |          1 |          3 |         39 |
+| c:\Users\badin\Downloads\client1k\src\app\components\registration-popup\registration-popup.component.scss          | SCSS               |         37 |          0 |          8 |         45 |
+| c:\Users\badin\Downloads\client1k\src\app\components\registration-popup\registration-popup.component.spec.ts       | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\registration-popup\registration-popup.component.ts            | TypeScript         |         15 |          0 |          5 |         20 |
+| c:\Users\badin\Downloads\client1k\src\app\components\routes\routes.component.html                                  | HTML               |         26 |          0 |          2 |         28 |
+| c:\Users\badin\Downloads\client1k\src\app\components\routes\routes.component.scss                                  | SCSS               |         33 |          0 |          8 |         41 |
+| c:\Users\badin\Downloads\client1k\src\app\components\routes\routes.component.spec.ts                               | TypeScript         |         17 |          0 |          5 |         22 |
+| c:\Users\badin\Downloads\client1k\src\app\components\routes\routes.component.ts                                    | TypeScript         |        153 |         13 |          3 |        169 |
+| c:\Users\badin\Downloads\client1k\src\app\components\subsidies\subsidies.component.html                            | HTML               |         68 |          0 |         18 |         86 |
+| c:\Users\badin\Downloads\client1k\src\app\components\subsidies\subsidies.component.scss                            | SCSS               |         90 |          1 |         19 |        110 |
+| c:\Users\badin\Downloads\client1k\src\app\components\subsidies\subsidies.component.spec.ts                         | TypeScript         |         18 |          0 |          6 |         24 |
+| c:\Users\badin\Downloads\client1k\src\app\components\subsidies\subsidies.component.ts                              | TypeScript         |         46 |          0 |          8 |         54 |
+| c:\Users\badin\Downloads\client1k\src\app\models\flight.ts                                                         | TypeScript         |         10 |          0 |          1 |         11 |
+| c:\Users\badin\Downloads\client1k\src\app\models\passenger.ts                                                      | TypeScript         |          9 |          0 |          1 |         10 |
+| c:\Users\badin\Downloads\client1k\src\app\models\subsidy.ts                                                        | TypeScript         |          7 |          0 |          0 |          7 |
+| c:\Users\badin\Downloads\client1k\src\app\models\ticket.ts                                                         | TypeScript         |         11 |          0 |          1 |         12 |
+| c:\Users\badin\Downloads\client1k\src\app\services\auth.service.spec.ts                                            | TypeScript         |         12 |          0 |          5 |         17 |
+| c:\Users\badin\Downloads\client1k\src\app\services\auth.service.ts                                                 | TypeScript         |         17 |         47 |         21 |         85 |
+| c:\Users\badin\Downloads\client1k\src\app\services\passenger.service.spec.ts                                       | TypeScript         |         12 |          0 |          5 |         17 |
+| c:\Users\badin\Downloads\client1k\src\app\services\passenger.service.ts                                            | TypeScript         |         23 |         14 |         10 |         47 |
+| c:\Users\badin\Downloads\client1k\src\app\services\route.service.spec.ts                                           | TypeScript         |         12 |          0 |          5 |         17 |
+| c:\Users\badin\Downloads\client1k\src\app\services\route.service.ts                                                | TypeScript         |         18 |          0 |          8 |         26 |
+| c:\Users\badin\Downloads\client1k\src\app\services\subsidy.service.spec.ts                                         | TypeScript         |         12 |          0 |          5 |         17 |
+| c:\Users\badin\Downloads\client1k\src\app\services\subsidy.service.ts                                              | TypeScript         |         18 |          0 |          9 |         27 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\WebsocketModule.ts                                    | TypeScript         |          0 |          0 |          1 |          1 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\index.ts                                              | TypeScript         |          0 |          0 |          1 |          1 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\websocket.config.ts                                   | TypeScript         |          2 |          0 |          1 |          3 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\websocket.interfaces.ts                               | TypeScript         |         15 |          0 |          3 |         18 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\websocket.module.ts                                   | TypeScript         |          0 |         22 |          3 |         25 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\websocket.service.spec.ts                             | TypeScript         |          0 |         12 |          3 |         15 |
+| c:\Users\badin\Downloads\client1k\src\app\services\websocket\websocket.service.ts                                  | TypeScript         |          0 |        109 |         30 |        139 |
+| c:\Users\badin\Downloads\client1k\src\assets\images\flights.svg                                                    | XML                |         29 |          0 |          1 |         30 |
+| c:\Users\badin\Downloads\client1k\src\assets\images\info(no pic).svg                                               | XML                |         28 |          0 |          1 |         29 |
+| c:\Users\badin\Downloads\client1k\src\assets\images\info.svg                                                       | XML                |         38 |          0 |          1 |         39 |
+| c:\Users\badin\Downloads\client1k\src\assets\images\pdf-2610.svg                                                   | XML                |         14 |          0 |          1 |         15 |
+| c:\Users\badin\Downloads\client1k\src\assets\images\route(no pic).svg                                              | XML                |         28 |          0 |          1 |         29 |
+| c:\Users\badin\Downloads\client1k\src\assets\images\route.svg                                                      | XML                |         33 |          0 |          1 |         34 |
+| c:\Users\badin\Downloads\client1k\src\assets\routes.csv                                                            | CSV                |        271 |          0 |          0 |        271 |
+| c:\Users\badin\Downloads\client1k\src\enviroments\enviroment.ts                                                    | TypeScript         |          4 |          0 |          1 |          5 |
+| c:\Users\badin\Downloads\client1k\src\index.html                                                                   | HTML               |         16 |          0 |          1 |         17 |
+| c:\Users\badin\Downloads\client1k\src\main.ts                                                                      | TypeScript         |          4 |          1 |          6 |         11 |
+| c:\Users\badin\Downloads\client1k\src\styles.scss                                                                  | SCSS               |          4 |          7 |          5 |         16 |
+| c:\Users\badin\Downloads\client1k\tsconfig.app.json                                                                | JSON               |         15 |          1 |          1 |         17 |
+| c:\Users\badin\Downloads\client1k\tsconfig.json                                                                    | JSON with Comments |         32 |          1 |          1 |         34 |
+| c:\Users\badin\Downloads\client1k\tsconfig.spec.json                                                               | JSON               |         14 |          1 |          1 |         16 |
+| Total                                                                                                              |                    |     17,331 |        350 |        561 |     18,242 |
++--------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
